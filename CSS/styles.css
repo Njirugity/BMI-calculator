@@ -1,4 +1,23 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: medium;
+  }
 .theTitle{
     position: relative; 
     left: 500px;
+}
+
+.mainPic{
+    position: relative; 
+    left: 150px;
+}
+.theTable{
+    position: relative; 
+    left: 100px;
+}
+.theExplanation{
+    width: 700px;
+    position: relative; 
+    left: 500px;
+    bottom: 150px;
 }
