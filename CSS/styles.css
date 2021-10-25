@@ -1,6 +1,7 @@
 body {
     font-family: Tahoma, sans-serif;
     font-size: medium;
+    
   }
 .theTitle{
     position: relative; 
@@ -12,12 +13,36 @@ body {
     left: 150px;
 }
 .theTable{
+   
     position: relative; 
-    left: 100px;
+    left: 150px;
+    top: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(29, 131, 72 );
+    width: 200px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
 }
 .theExplanation{
     width: 700px;
     position: relative; 
-    left: 500px;
+    left: 400px;
     bottom: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(29, 131, 72 );
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.paragrapghOne{
+    position: relative;
+    left: 100px;
+
+}.title{
+    position: fixed;
+}
+.faceBook{
+    
 }

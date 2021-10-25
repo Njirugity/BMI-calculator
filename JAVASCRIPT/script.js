@@ -6,18 +6,20 @@ function bmiCalculator (){
     var height= document.getElementById("urefu").value;
     var height = parseFloat(height);
     var BMI = Math.floor(weight/(height*height));
-   
+  
+
 
     
     if (BMI < 18){
-        alert("underweight");
+        console.log(document.getElementById("output"). value= BMI + " You are underweight");
     } else if (BMI >19 && BMI< 25){
-        alert("fit");
+        console.log(document.getElementById("output"). value= BMI + " You are fit");
     } else if (BMI > 26 && BMI < 29){
-        alert("overweight");
+        console.log(document.getElementById("output"). value= BMI + " You are overweight");
     } else{
-        alert("obese");
+        console.log(document.getElementById("output"). value= BMI + " You are obese");
     }
+    
 
 }
 document.querySelector("button").addEventListener("click", bmiCalculator);
