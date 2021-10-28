@@ -23,3 +23,4 @@ function bmiCalculator (){
 
 }
 document.querySelector("button").addEventListener("click", bmiCalculator);
+
